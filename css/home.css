@@ -1,0 +1,128 @@
+* {
+	scroll-behavior: smooth;
+}
+
+.header {
+	height: 20vh;
+	padding: 10px;
+	margin-bottom: 15px;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+
+.logo {
+	background-image: url(../images/logo.jpg);
+	background-position: right;
+	background-size: contain;
+	border: 2px black solid;
+	border-radius: 50%;
+	height: 20vh;
+	width: 20vh;
+}
+
+.title {
+	background-image: url(../images/title.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 20vh;
+}
+
+.showcase {
+	height: 70vh;
+	margin-bottom: 15px;
+}
+
+li {
+	background-color: pink;
+	border: 2px black solid;
+	list-style: none;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+ul {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 10px;
+}
+
+li:hover {
+	background-color: white;
+	color: pink;
+	transition: .5s ease-out;
+	box-shadow: 3px;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 25px;
+}
+
+body {
+	background-image: url(../images/body2.jpg);
+	background-position: fixed;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container2 {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 10px;
+	margin-bottom: 15px;
+}
+
+.image {
+	border: 2px black solid;
+	background-image: url(../images/about.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.text {
+	border: 2px black solid;
+	background-image: url(../images/text.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+}
+
+.image:hover {
+	background-image: url(../images/hover.gif);
+	transition: .3s ease-out;
+	border-radius: 10px;
+}
+
+.text:hover {
+	color: black;
+	background-image:url(../images/mountain.jpg);
+	transition: .3s ease-in;
+	border-radius: 10px;
+
+}
+
+.container3 {
+	height: 50vh;
+	margin-bottom: 15px;
+}
+
+.footer {
+	height: 10vh;
+	border: 2px black solid;
+	text-align: center;
+	border-radius: 10px;
+	background-color: pink;
+	color; white;
+}
